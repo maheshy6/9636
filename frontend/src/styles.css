@@ -1,0 +1,39 @@
+.app-container {
+   
+    min-height: 100vh;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    padding: 2rem;
+  }
+  
+  h1, h2, h3 {
+    color: #ffcc00;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  button {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #ff6600;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 1rem;
+    }
+  }
+  

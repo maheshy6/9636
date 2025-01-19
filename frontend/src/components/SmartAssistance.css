@@ -1,0 +1,49 @@
+.traffic-assistance {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.route-suggestions, .alternate-routes {
+  margin-top: 20px;
+}
+
+.suggestion-card, .route-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.suggestion-card h4, .route-card h4 {
+  color: #2d3d52;
+  font-size: 18px;
+}
+
+.suggestion-card p, .route-card p {
+  color: #555;
+}
+
+.suggestion-card {
+  background-color: #f9f9f9;
+}
+
+.route-card {
+  background-color: #e6f7ff;
+}
+
+.route-suggestions h3, .alternate-routes h3 {
+  font-size: 20px;
+  color: #0055b8;
+}
+
+.map-container {
+  margin-top: 20px;
+}

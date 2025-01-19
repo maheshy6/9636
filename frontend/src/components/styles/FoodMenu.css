@@ -1,0 +1,18 @@
+.menu-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .menu-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-container li {
+    margin: 10px 0;
+  }
+  
+  .menu-container button {
+    margin-left: 10px;
+  }
+  
