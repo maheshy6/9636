@@ -1,64 +1,101 @@
-# Real-Time Traffic Assistance App
+# CollabX 
 
-This repository contains the source code for a **Real-Time Traffic Assistance App** that provides innovative solutions for managing traffic-related challenges. Designed to make commuting and navigating congested areas easier, the app integrates features like real-time delivery services, on-demand transport assistance, and productivity tools.
+This repository contains the source code for **CollabX**, a platform that enables users to share ideas, showcase their skills, and collaborate with like-minded individuals to bring projects to life. CollabX fosters innovation by connecting users based on their expertise and interests.
 
 ---
 
 ## **Overview**
 
-The app leverages real-time traffic updates, AI-driven predictions, and geolocation services to deliver the following capabilities:
-- Food and essentials delivery during traffic jams.
-- On-demand transport assistance to exit congested areas.
-- AI-powered traffic analysis and smart route suggestions.
-- Integrated productivity tools and entertainment options.
-- Emergency support for medical and vehicle-related issues.
-- Community-driven updates and eco-friendly incentives.
+CollabX integrates real-time collaboration features to offer the following capabilities:
+
+- Post and discover innovative ideas across various domains.
+- Set skills and find potential collaborators based on shared interests.
+- Integrated productivity tools for seamless remote collaboration.
+- Community-driven discussions and knowledge-sharing forums.
+- Support for project management with milestones and progress tracking.
 
 ---
+
+## Deployed App
+- The application is live at: [http://collabx.netlify.app](http://collabx.netlify.app)
+- Backend Deploy Link: [https://collabx-backend.onrender.com](https://collabx-backend.onrender.com)
+
+
 
 ## **Key Features**
 
-1. **Real-Time Delivery Services**:
-   - Dynamic delivery stations for fast food and essentials delivery.
-   - Real-time location tracking for optimized delivery routes.
+1. **Idea Sharing & Discovery**:
 
-2. **On-Demand Transport Assistance**:
-   - Booking bicycles, scooters, or alternative transport on the go.
-   - Vehicle tracking for user convenience.
+   - Users can post ideas and categorize them into different domains.
+   - A discovery feed allows users to explore trending and relevant ideas.
 
-3. **AI-Powered Smart Assistance**:
-   - Traffic relief predictions and alternate route suggestions.
-   - Recommendations for nearby safe waiting spots.
+2. **Skill-Based Collaboration**:
 
-4. **Integrated Productivity Hub**:
-   - Remote work tools and virtual meeting support.
-   - Personalized entertainment options like podcasts and audiobooks.
+   - Users can list their skills and expertise on their profiles.
+   - AI-driven suggestions help match users with potential collaborators.
 
-5. **Emergency Support**:
-   - Medical assistance and minor first-aid delivery.
-   - Vehicle breakdown support.
+3. **Smart Project Assistance**:
 
-6. **Social Impact Features**:
-   - Eco-friendly rewards for using bicycles and scooters.
-   - Community-driven traffic updates and hyper-local notifications.
+   - AI-powered recommendations for project execution strategies.
+   - Task automation and role assignment to optimize teamwork.
+
+4. **Integrated Productivity Tools**:
+
+   - Built-in messaging and video conferencing.
+   - Document collaboration and task tracking features.
+
+5. **Community & Social Engagement**:
+
+   - Knowledge-sharing forums and discussion boards.
+   - Public and private project groups for effective networking.
+
+6. **Support & Innovation Challenges**:
+
+   - Regular hackathons and competitions to inspire innovation.
+   - Mentorship programs to connect beginners with experienced professionals.
 
 ---
+
+## Glimpse and Screenshots of our cloned website:
+<table>
+   <tr align=center>
+     <td  colspan=3>Landing Page<img src="Screenshots/landing_page.png" width=1000 ></td>
+  </tr>
+  <tr align=center>
+     <td>Sign in Page<img src="Screenshots/signin_page.png" height=250></td>
+    <td>Product Page<img src="Screenshots/product_page.png" height=250></td>
+    <td>Club Page<img src="Screenshots/club_page.png" height=250></td>
+   </tr>
+    <tr align=center>
+      <td>Cart Page<img src="Screenshots/cart_page.png" height=250></td>
+    <td>Wishlist Page<img src="Screenshots/wishlist_page.png" height=250 ></td>
+    <td>Footer <img src="Screenshots/footer.png" height=250 ></td>
+  </tr> 
+ 
+</table>
+
+
 
 ## **Technologies Used**
 
 ### Frontend:
+
 - **React** (with **Vite** for fast development)
 
 ### Backend:
+
 - **Node.js**
 - **Express.js**
 
 ### Database:
+
 - **MongoDB**
 
 ### Other Technologies:
-- **Geolocation APIs** for real-time tracking
-- **AI Models** for traffic pattern predictions
+
+- **AI Algorithms** for smart matchmaking
+- **Geolocation APIs** for event-based collaborations
+- **WebSockets** for real-time updates
 
 ---
 
@@ -67,11 +104,13 @@ The app leverages real-time traffic updates, AI-driven predictions, and geolocat
 Follow these steps to run the project locally:
 
 1. **Clone the Repository**:
+
    ```bash
-   git clone (https://github.com/maheshy6/9636.git)
+   git clone https://github.com/ankithmandal09/CollabX.git
    ```
 
 2. **Install Dependencies**:
+
    - Navigate to the `frontend` directory and install dependencies:
      ```bash
      cd frontend
@@ -82,7 +121,9 @@ Follow these steps to run the project locally:
      cd backend
      npm install
      ```
+
 3. **Start the Application**:
+
    - Start the backend server:
      ```bash
      cd backend
@@ -95,15 +136,11 @@ Follow these steps to run the project locally:
      ```
 
 4. **Access the Application**:
-   - Open your browser and go to: `http://localhost:5173`
+
+   - Open your browser and go to: `http://localhost:8090`
 
 ---
 
-## **Deployed Application**
+Empower your ideas and connect with innovators through **CollabX**!
 
-- The application is live at: http://traffic-9636.netlify.app
-- Backend Deploy Link: https://traffic-relief-dashboard.onrender.com
 
----
-
-Enjoy smoother commutes and productive journeys with our Real-Time Traffic Assistance App!
